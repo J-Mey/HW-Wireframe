@@ -25,7 +25,6 @@ header {
 nav {
     background: #ebebeb;
     padding: 50px;
-    
     margin-top: 10px;
 }
 
@@ -33,10 +32,15 @@ section {
     background: #ebebeb;
     width: 495px;
     height: 300px;
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-top: 20px;
     float: left;
     position: relative;      
+}
+
+section p {
+    padding-bottom: 10px;
 }
 
 aside {
@@ -54,8 +58,6 @@ article {
     width: 435px;
     height: 200px;
     padding: 20px;
-    float: left;
-    position: absolute;
     margin-left: 10px;
     bottom: 335px;
 }
@@ -63,25 +65,17 @@ article {
 #header {
     background: #ebebeb;
     color: #777;
-    width: 435px;
+    margin-top: -10px;
     height: 50px;
-    padding: 10px;
-    float: left;
-    position: absolute;
-    margin-left: 20px;
-    bottom: 425px;
+    padding: 10px;    
 }
 
 #paragraph{
     background: #ebebeb;
     color: #777;
-    width: 435px;
+    margin-top: 10px;
     height: 50px;
-    padding: 10px;
-    float: left;
-    position: absolute;
-    margin-left: 20px;
-    bottom: 345px;
+    padding: 10px;  
 }
 
 footer {
